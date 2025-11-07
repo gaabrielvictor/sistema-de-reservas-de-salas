@@ -1,4 +1,4 @@
-##🏫 Sistema de Reservas de Salas — UNIFACISA
+## 🏫 Sistema de Reservas de Salas — UNIFACISA
 
 API RESTful desenvolvida em Node.js com Express, que gerencia salas, usuários e reservas em um sistema simples de agendamento.
 O projeto foi criado como parte da disciplina de Engenharia de Software / Testes de Software, com foco na criação e execução de casos de teste.
