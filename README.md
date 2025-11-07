@@ -3,7 +3,7 @@
 API RESTful desenvolvida em Node.js com Express, que gerencia salas, usuários e reservas em um sistema simples de agendamento.
 O projeto foi criado como parte da disciplina de Engenharia de Software / Testes de Software, com foco na criação e execução de casos de teste.
 
-📋 Sumário
+## 📋 Sumário
 
 Visão Geral
 
@@ -27,7 +27,7 @@ Casos de Teste Implementados
 
 Autor
 
-⚙️ Visão Geral
+## ⚙️ Visão Geral
 
 O sistema permite:
 
@@ -41,7 +41,7 @@ Consultar salas disponíveis em um intervalo de horário específico.
 
 A API foi projetada para ser simples, mas com validações robustas de conflito, horários e regras de negócio, simulando o funcionamento de um sistema real de agendamento.
 
-🧠 Tecnologias Utilizadas
+## 🧠 Tecnologias Utilizadas
 
 Node.js
 
@@ -55,7 +55,7 @@ Nodemon (para desenvolvimento)
 
 JSON como base de dados em memória
 
-🚀 Instalação e Execução
+## 🚀 Instalação e Execução
 1️⃣ Clone o repositório
 git clone https://github.com/seuusuario/api-reservas-salas.git
 cd api-reservas-salas
@@ -90,7 +90,7 @@ POST /usuarios
   "email": "maria@unifacisa.edu.br"
 }
 
-🏢 Salas
+## 🏢 Salas
 
 Rota base: /salas
 
@@ -111,7 +111,7 @@ POST /salas
   "status": "ativa"
 }
 
-📅 Reservas
+## 📅 Reservas
 
 Rota base: /reservas
 
@@ -134,7 +134,7 @@ POST /reservas
   "motivo": "Aula de programação"
 }
 
-🔍 Disponibilidade de Salas
+## 🔍 Disponibilidade de Salas
 
 Rota base: /salas/disponiveis
 
@@ -208,7 +208,7 @@ Disponibilidade
 
 ✅ Garantir que salas inativas não apareçam
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Gabriel Victor
 Desenvolvido como parte do curso da UNIFACISA
